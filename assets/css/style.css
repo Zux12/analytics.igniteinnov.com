@@ -62,6 +62,52 @@ a {
   background: linear-gradient(135deg, #08101d 0%, #10203d 100%);
 }
 
+
+.hero {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  background: radial-gradient(circle at 20% 30%, #0f2a5c 0%, transparent 40%),
+              radial-gradient(circle at 80% 70%, #1a3a8a 0%, transparent 40%),
+              linear-gradient(135deg, #050b16 0%, #0b1c3d 100%);
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/grid.svg');
+  opacity: 0.08;
+}
+
+.highlight {
+  color: #38bdf8;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 900px;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  max-width: 760px;
+  margin: 0 auto 30px;
+  color: #c7d5ea;
+  font-size: 1.1rem;
+}
+
 .hero-content {
   max-width: 900px;
   text-align: center;
