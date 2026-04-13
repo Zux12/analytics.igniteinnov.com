@@ -303,6 +303,9 @@ a {
   grid-template-columns: 1fr;
 }
 
+  .use-cases-grid {
+  grid-template-columns: 1fr;
+}
 
   .hero-content h1 {
     font-size: 1.8rem;
