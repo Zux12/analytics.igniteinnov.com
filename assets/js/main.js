@@ -14,6 +14,8 @@ async function loadComponent(selector, file) {
 document.addEventListener("DOMContentLoaded", async () => {
   await loadComponent("#header-placeholder", "/components/header.html");
   await loadComponent("#footer-placeholder", "/components/footer.html");
+
+  initChart();
 });
 
 function initChart() {
